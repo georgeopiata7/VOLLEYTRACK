@@ -44,7 +44,7 @@ main{
 .playing-teams{
     
     display: flex;
-    gap: 400px;
+    gap: 100px;
     
     
 }
@@ -118,3 +118,59 @@ main{
     }
 
 }
+.finish-set-btn{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.finish-set-text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: grey;
+    border: solid 1px rgb(68, 67, 67);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.set-in-progress{
+    background-color: grey;
+    
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    
+}
+
+.set-text{
+    background-color: green;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+    margin-right: 8px;
+    white-space: nowrap;
+
+}
+.new-match-btn{
+    background-color: rgb(100, 99, 99);
+    margin-left: 45px;
+    border-radius: 20px;
+    border: solid 1px rgb(75, 74, 74);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-match-text{
+    padding: 5px 70px;
+    
+}
+.in-progress-text{
+    white-space: nowrap;
+}
+
