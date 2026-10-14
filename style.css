@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+}
+.heading{
+    
+    padding: 30px 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.Volleyball-management-text{
+    margin-left: 28px;
+}
+main{
+    display: grid;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.current-match{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playing-teams{
+    
+    display: flex;
+    gap: 400px;
+    
+    
+}
+.first-team-card, .second-team-card{
+    border: solid 1px black;
+    background-color: grey;
+    border: solid 1px rgb(65, 64, 64);
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 75px;
+    
+
+}
+.name-input{
+    padding: 12px;
+    border-radius: 20px;
+    font-style: italic;
+    border-style: none;
+}
+.first-team-name-input, .second-team-name-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.first-team-name, .second-team-name{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.scores-card-1, .scores-card-2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.scores{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.scores-value{
+    font-weight: bold;
+    font-size: 150px;
+}
+.increase-and-decrease-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    margin-top: 25px;
+}
+.decrease-sign, .increase-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    background-color: grey;
+    padding: 2px 65px;
+    
+    font-size: 100px;
+    border-radius: 20px;
+}
+@media(max-width: 800px){
+    .playing-teams{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 50px;
+    }
+
+}

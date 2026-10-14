@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLLEYTRACK</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>VOLLEYTRACK</h1>
+            <span class="Volleyball-management-text">Volleyball Match Management</span>
+        </div>
+    </header>
+    <main>
+        <div class="current-match">
+            <h1>Current Match</h1>
+        </div>
+
+        <div class="playing-teams">
+
+            <!--First team card-->
+
+            <div class="first-team-card">
+                <div class="first-team-name-input">
+                    <input id="first-team-input" class="name-input" class="first-team-input" type="text" placeholder="Enter first team name">
+                </div>
+
+                <div class="first-team-name">
+                    <h1 id="first-team-text">FIRST TEAM</h1>
+                </div>
+
+                <div class="scores-card-1">
+                    <div class="scores">
+                        <h1 class="scores-value" id="scores-value-firstteam">0</h1>
+                        
+                    </div>
+
+
+                    <div class="increase-and-decrease-btn">
+                        <div class="decrease-btn">
+                            <button class="decrease-sign" onclick="decreaseScores()">-1</button>
+                        </div>
+
+                        <div class="increase-btn">
+                            <button class="increase-sign" onclick="increaseScores()">+1</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--Second team card-->
+            <div class="second-team-card">
+                <div class="second-team-name-input">
+                    <input class="name-input" type="text" placeholder="Enter second team name">
+                </div>
+
+
+                <div class="second-team-name">
+                    <h1>SECOND TEAM</h1>
+                </div>
+
+                <div class="scores-card-2">
+                    <div class="scores">
+                        <h1 class="scores-value" id="scores-value-secondteam">0</h1>
+                        
+                    </div>
+
+
+                    <div class="increase-and-decrease-btn">
+                        <div class="decrease-btn">
+                            <button class="decrease-sign" onclick="decreasingScores()">-1</button>
+                        </div>
+
+                        <div class="increase-btn">
+                            <button class="decrease-sign" onclick="increasingScores()">+1</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js">
+        
+
+    </script>
+    
+</body>
+</html>
